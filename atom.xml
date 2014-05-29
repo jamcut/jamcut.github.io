@@ -4,7 +4,7 @@
   <title><![CDATA[Semi-Awesome InfoSec]]></title>
   <link href="http://jamcut.github.io/atom.xml" rel="self"/>
   <link href="http://jamcut.github.io/"/>
-  <updated>2014-05-29T16:20:14-04:00</updated>
+  <updated>2014-05-29T16:26:59-04:00</updated>
   <id>http://jamcut.github.io/</id>
   <author>
     <name><![CDATA[jamcut]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What's All This Here?]]></title>
+    <link href="http://jamcut.github.io/blog/2014/05/29/whats-all-this-here/"/>
+    <updated>2014-05-29T16:24:44-04:00</updated>
+    <id>http://jamcut.github.io/blog/2014/05/29/whats-all-this-here</id>
+    <content type="html"><![CDATA[<p>After several failed previous blog attempts, I honestly intend to keep this fairly updated.  Check back from time to time.</p>
+]]></content>
+  </entry>
   
 </feed>
