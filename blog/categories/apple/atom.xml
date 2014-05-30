@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Semi-Awesome InfoSec]]></title>
-  <link href="http://jamcut.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Apple | Semi-Awesome InfoSec]]></title>
+  <link href="http://jamcut.github.io/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://jamcut.github.io/"/>
   <updated>2014-05-30T15:30:57-04:00</updated>
   <id>http://jamcut.github.io/</id>
@@ -28,11 +28,11 @@
 
 <h4>Step One: Create the Phish</h4>
 
-<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/phish.jpg" /></p>
+<p><img src="/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/phish.jpg" /></p>
 
 <h4>Step Two: Always check the fine print</h4>
 
-<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/fineprint.jpg" /></p>
+<p><img src="/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/fineprint.jpg" /></p>
 
 <p>That stuff there at the end is the unicode string that triggers the bug.  It will prevent this message from being displayed on any iOS device, which should increase the odds that it will be viewed on the target&rsquo;s PC.  That should increase the likelihood of successful compromise.</p>
 
@@ -41,15 +41,6 @@
 <p>No screenshot here, pretty self explanatory.</p>
 
 <p>This is just one method for leveraging a bug that is, in an of itself, a mere annoyance.  Additionally, this is a interesting example of the ways that little things can be linked together for a larger impact.  It also demonstrated why it is important to keep your mobile devices updated.  Even if Apple decided not to patch this issue, it will probably stop showing up on Twitter and other sites in a week or so and most people will soon forget about it.  Personally, I&rsquo;ll keep this one in my back pocket for a special occasion.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What's all this here?]]></title>
-    <link href="http://jamcut.github.io/blog/2014/05/29/whats-all-this-here/"/>
-    <updated>2014-05-29T16:24:44-04:00</updated>
-    <id>http://jamcut.github.io/blog/2014/05/29/whats-all-this-here</id>
-    <content type="html"><![CDATA[<p>After several failed previous blog attempts, I honestly intend to keep this fairly updated.  Check back from time to time.</p>
 ]]></content>
   </entry>
   
