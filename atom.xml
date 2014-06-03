@@ -4,7 +4,7 @@
   <title><![CDATA[Semi-Awesome InfoSec]]></title>
   <link href="http://jamcut.github.io/atom.xml" rel="self"/>
   <link href="http://jamcut.github.io/"/>
-  <updated>2014-06-03T13:57:47-04:00</updated>
+  <updated>2014-06-03T15:10:08-04:00</updated>
   <id>http://jamcut.github.io/</id>
   <author>
     <name><![CDATA[jamcut]]></name>
@@ -28,11 +28,11 @@
 
 <h4>Step One: Create the Phish</h4>
 
-<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/phish.jpg" /></p>
+<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/phish.jpg" title="Sample Phishing Message" ></p>
 
 <h4>Step Two: Always check the fine print</h4>
 
-<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/fineprint.jpg" /></p>
+<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/fineprint.jpg" width="5000" height="5000" title="Malicious Unicode String" ></p>
 
 <p>That stuff there at the end is the unicode string that triggers the bug.  It will prevent this message from being displayed on any iOS device, which should increase the odds that it will be viewed on the target&rsquo;s PC.  That should increase the likelihood of successful compromise.</p>
 
