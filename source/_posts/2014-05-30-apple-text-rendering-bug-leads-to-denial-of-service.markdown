@@ -9,7 +9,7 @@ categories: [DoS, Apple, Unicode, Crash]
 
 
 
-In case you haven't heard, recently there was a bug disclosed for iOS/OSX which leverages a particular unicode string to crash the app that attempts to display it.  I'm not going to bother with a full write-up here mostly because it has been covered pretty well.  If you want a little more insight into the issue check out this [post](http://signalsec.blogspot.com/2013/08/interesting-bug-in-ios-and-osx.html) by [patchwork](http://signalsec.blogspot.com/), one of my coworkers.  I want to talk a little bit more about ways to make use of it.
+In case you haven't heard, recently there was a bug disclosed for iOS/OSX which leverages a particular unicode string to crash the app that attempts to display it.  I'm not going to bother with a full write-up here mostly because it has been covered pretty well.  <!-- more -->If you want a little more insight into the issue check out this [post](http://signalsec.blogspot.com/2013/08/interesting-bug-in-ios-and-osx.html) by [patchwork](http://signalsec.blogspot.com/), one of my coworkers.  I want to talk a little bit more about ways to make use of it.
 
 ### Scenario - Herding the sheep
 
