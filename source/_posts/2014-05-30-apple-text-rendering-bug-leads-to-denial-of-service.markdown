@@ -16,12 +16,13 @@ In case you haven't heard, recently there was a bug disclosed for iOS/OSX which 
 We live in an ever-increasingly connected world, consider your phone.  Its no secret that the vast majority of professionals regularly receive, view, and respond to email through their mobile device.  Say you want to ensure the target(s) hit your evil link on their PC, how could you do that?  Enter this bug.  
 
 #### Step One: Create the Phish
- 
-<img src="{{ root_url }}/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/phish.jpg" />
 
+{% img /images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/phish.jpg Sample Phishing Message%}
+
+ 
 #### Step Two: Always check the fine print
 
-<img src="{{ root_url }}/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/fineprint.jpg" />
+{% img /images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/fineprint.jpg 5000 5000 Malicious Unicode String %}
 
 That stuff there at the end is the unicode string that triggers the bug.  It will prevent this message from being displayed on any iOS device, which should increase the odds that it will be viewed on the target's PC.  That should increase the likelihood of successful compromise.
 
