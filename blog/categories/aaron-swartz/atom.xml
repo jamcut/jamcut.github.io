@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Semi-Awesome InfoSec]]></title>
-  <link href="http://jamcut.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Aaron Swartz | Semi-Awesome InfoSec]]></title>
+  <link href="http://jamcut.github.io/blog/categories/aaron-swartz/atom.xml" rel="self"/>
   <link href="http://jamcut.github.io/"/>
   <updated>2014-07-02T17:46:16-04:00</updated>
   <id>http://jamcut.github.io/</id>
@@ -22,8 +22,7 @@
 
 <p>The film tells the story of Aaron Swartz, focusing on his numerous accomplishments including RSS, Creative Commons, and Reddit, as well as his activism, battling for Open Access and against SOPA/PIPA, and the legal trouble he encountered as a result.</p>
 
-<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/RvsxnOg0bJY" width="640" height="320" allowfullscreen></iframe></div>
-
+<p><div class="embed-video-container"><iframe src="http://www.youtube.com/embed/RvsxnOg0bJY" width="640" height="320" allowfullscreen></iframe></div></p>
 
 <p>The film itself was very well done and very informative.  Honestly, despite his impressive list of contributions, I wasn&rsquo;t very familiar with Swartz, and I was completely unaware of his arrest and indictment until after he passed.
 I remember hearing about his passing, and as a result the incident with JSTOR, and being saddened and angered by the way that all went down.  Watching the film yesterday I walked away with the same feelings.  It&rsquo;s so unfortunate that a young person
@@ -63,46 +62,6 @@ that are absolutely questionable, but the technical &ldquo;hack&rdquo; portion? 
 <p>In any event if you made it this far, thanks for reading.  If you are interested in seeing The Internet&rsquo;s Own Boy, it is available for streaming or download under the Creative Commons License <a href="https://archive.org/details/TheInternetsOwnBoyTheStoryOfAaronSwartz">here</a>.  As I said earlier it&rsquo;s a great, if a little bit depressing, film that I would highly recommend.</p>
 
 <p>If you want to learn more about Aaron Swartz, his Wikipedia page is located <a href="http://en.wikipedia.org/wiki/Aaron_Swartz">here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apple Text-Rendering Bug Leads to Denial of Service]]></title>
-    <link href="http://jamcut.github.io/blog/2014/05/30/apple-text-rendering-bug-leads-to-denial-of-service/"/>
-    <updated>2014-05-30T15:22:16-04:00</updated>
-    <id>http://jamcut.github.io/blog/2014/05/30/apple-text-rendering-bug-leads-to-denial-of-service</id>
-    <content type="html"><![CDATA[<p><em>For my first post I decided to recycle a short blog I wrote previously about the short lived iOS/OSX unicode DoS bug originally reported <a href="https://news.ycombinator.com/item?id=6293824">here</a>.  The bug was pretty interesting and unfortunately it was patched rather quickly.</em>  <strong>The content of this post has been edited from the original to fix some grammar odd sounding sentences.</strong></p>
-
-<p>In case you haven&rsquo;t heard, recently there was a bug disclosed for iOS/OSX which leverages a particular unicode string to crash the app that attempts to display it.  I&rsquo;m not going to bother with a full write-up here mostly because it has been covered pretty well.  <!-- more -->If you want a little more insight into the issue check out this <a href="http://signalsec.blogspot.com/2013/08/interesting-bug-in-ios-and-osx.html">post</a> by <a href="http://signalsec.blogspot.com/">patchwork</a>, one of my coworkers.  I want to talk a little bit more about ways to make use of it.</p>
-
-<h3>Scenario &ndash; Herding the sheep</h3>
-
-<p>We live in an ever-increasingly connected world, consider your phone.  Its no secret that the vast majority of professionals regularly receive, view, and respond to email through their mobile device.  Say you want to ensure the target(s) hit your evil link on their PC, how could you do that?  Enter this bug.</p>
-
-<h4>Step One: Create the Phish</h4>
-
-<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/phish.jpg" title="Sample Phishing Message" ></p>
-
-<h4>Step Two: Always check the fine print</h4>
-
-<p><img src="http://jamcut.github.io/images/2014-05-30-apple-text-rendering-bug-leads-to-denial-of-service/fineprint.jpg" width="5000" height="5000" title="Malicious Unicode String" ></p>
-
-<p>That stuff there at the end is the unicode string that triggers the bug.  It will prevent this message from being displayed on any iOS device, which should increase the odds that it will be viewed on the target&rsquo;s PC.  That should increase the likelihood of successful compromise.</p>
-
-<h4>Step Three: Launch the Attack</h4>
-
-<p>No screenshot here, pretty self explanatory.</p>
-
-<p>This is just one method for leveraging a bug that is, in an of itself, a mere annoyance.  Additionally, this is a interesting example of the ways that little things can be linked together for a larger impact.  It also demonstrated why it is important to keep your mobile devices updated.  Even if Apple decided not to patch this issue, it will probably stop showing up on Twitter and other sites in a week or so and most people will soon forget about it.  Personally, I&rsquo;ll keep this one in my back pocket for a special occasion.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What's all this here?]]></title>
-    <link href="http://jamcut.github.io/blog/2014/05/29/whats-all-this-here/"/>
-    <updated>2014-05-29T16:24:44-04:00</updated>
-    <id>http://jamcut.github.io/blog/2014/05/29/whats-all-this-here</id>
-    <content type="html"><![CDATA[<p>After several failed previous blog attempts, I honestly intend to keep this fairly updated.  Check back from time to time.</p>
 ]]></content>
   </entry>
   
