@@ -4,7 +4,7 @@
   <title><![CDATA[Category: activisim | Semi-Awesome InfoSec]]></title>
   <link href="http://jamcut.github.io/blog/categories/activisim/atom.xml" rel="self"/>
   <link href="http://jamcut.github.io/"/>
-  <updated>2014-07-02T17:46:16-04:00</updated>
+  <updated>2014-07-03T08:40:09-04:00</updated>
   <id>http://jamcut.github.io/</id>
   <author>
     <name><![CDATA[jamcut]]></name>
@@ -52,7 +52,7 @@ lesser extent, the situation with <a href="http://en.wikipedia.org/wiki/Weev#AT.
 
 <h3>The CFAA</h3>
 
-<p>The Computer Fraud and Abuse Ace (CFAA) was introduced in 1986, and was originally intended to deter hacking of &ldquo;protected&rdquo; (government and financial) computer systems.  Besides Swartz and weev other notable persons that have been prosecuted under the CFAA include Chelsea Manning, and George Hotz.
+<p>The Computer Fraud and Abuse Act (CFAA) was introduced in 1986, and was originally intended to deter hacking of &ldquo;protected&rdquo; (government and financial) computer systems.  Besides Swartz and weev other notable persons that have been prosecuted under the CFAA include Chelsea Manning, and George Hotz.
 There is strong criticism of the CFAA, mainly regarding its loose definitions and the fact that it is largely used to slam hackers with harsh penalties.  For instance, in the case of weev, he or whoever ran the script, simply needed to provide an iPad user agent in the request.
 For those that aren&rsquo;t familiar with user agents, it is something that says to a web server &ldquo;hey, I&rsquo;m Internet Explorer&rdquo; or &ldquo;hey, I&rsquo;m Google Chrome&rdquo; in this case it was &ldquo;hey, I&rsquo;m an iPad&rdquo;.  There were some other things that occurred during that incident, like what happened with the data and who was notified when,
 that are absolutely questionable, but the technical &ldquo;hack&rdquo; portion?  Not worth the 41 months and $70,000+ fine that he got (although his conviction was eventually vacated).  This quote from <a href="http://business.time.com/2013/03/19/u-s-hacker-crackdown-sparks-debate-over-computer-fraud-law/">this article</a> just about sums it up for me:</p>
