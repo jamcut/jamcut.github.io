@@ -47,7 +47,7 @@ Don't we, as humans, have a moral responsibility to call out things that are wro
 
 ### The CFAA
 
-The Computer Fraud and Abuse Ace (CFAA) was introduced in 1986, and was originally intended to deter hacking of "protected" (government and financial) computer systems.  Besides Swartz and weev other notable persons that have been prosecuted under the CFAA include Chelsea Manning, and George Hotz.
+The Computer Fraud and Abuse Act (CFAA) was introduced in 1986, and was originally intended to deter hacking of "protected" (government and financial) computer systems.  Besides Swartz and weev other notable persons that have been prosecuted under the CFAA include Chelsea Manning, and George Hotz.
 There is strong criticism of the CFAA, mainly regarding its loose definitions and the fact that it is largely used to slam hackers with harsh penalties.  For instance, in the case of weev, he or whoever ran the script, simply needed to provide an iPad user agent in the request.
 For those that aren't familiar with user agents, it is something that says to a web server "hey, I'm Internet Explorer" or "hey, I'm Google Chrome" in this case it was "hey, I'm an iPad".  There were some other things that occurred during that incident, like what happened with the data and who was notified when, 
 that are absolutely questionable, but the technical "hack" portion?  Not worth the 41 months and $70,000+ fine that he got (although his conviction was eventually vacated).  This quote from <a href="http://business.time.com/2013/03/19/u-s-hacker-crackdown-sparks-debate-over-computer-fraud-law/">this article</a> just about sums it up for me:
